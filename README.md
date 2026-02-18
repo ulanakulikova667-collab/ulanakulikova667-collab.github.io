@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <link href="CSS.css"
 <head>
   <meta charset="UTF-8">
+   <link rel="stylesheet" href="CSS.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Мой лендинг</title>
+
 </head>
   <body>
   <div class="page">
