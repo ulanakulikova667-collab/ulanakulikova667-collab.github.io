@@ -64,3 +64,200 @@
   </div>
 </body>
 </html>
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+    }
+
+    nav ul {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+      border-bottom: 2px solid #f1c40f;
+    }
+    .cover {
+      background: linear-gradient(200deg, #3498db, #9b59b6);
+      color: white;
+      text-align: center;
+      padding: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cover h1 {
+      font-size: 40px;
+      margin-bottom: 16px;
+      animation: fadeInDown 1s ease-out;
+    }
+ .cover p {
+      font-size: 20px;
+      margin-bottom: 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #f1c40f;
+      color: #2c3e50;
+      padding: 10px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #e67e22;
+      color: white;
+    }
+    .products {
+      padding: 48px 32px;
+      background-color: #ecf0f1;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 32px;
+      font-size: 32px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+.card {
+      background: white;
+      border-radius: 10px;
+      padding: 24px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+      margin-bottom: 16px;
+      transition: transform 0.3s;
+    }
+
+    .card img:hover {
+      transform: rotate(5deg) scale(1.1);
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      margin-bottom: 16px;
+      color: #7f8c8d;
+    }
+
+    .card .btn-small {
+      background-color: #3498db;
+      color: white;
+      padding: 8px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .card .btn-small:hover {
+      background-color: #2980b9;
+    }
+    .info {
+      padding: 48px 32px;
+      background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .info-text {
+      flex: 1 1 300px;
+    }
+
+    .info-text h2 {
+      margin-bottom: 16px;
+      font-size: 32px;
+    }
+
+    .info-text p {margin-bottom: 16px;
+      color: #555;
+    }
+
+    .info-image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .info-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 24px;
+    }
+@media (max-width: 600px)
+{ .cover h1
+  { font-size: 28px:
+  }
+  nav ul {
+    gap: 15px;
+  }
+}
